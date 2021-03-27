@@ -13,14 +13,6 @@
         @include('commons.navbar')
         
         <div class="container">
-            <!--<div class="row">-->
-            <!--    <div class="col-sm-8">-->
-            <!--        @yield('content')-->
-            <!--    </div>-->
-            <!--    <div class="col-sm-4">-->
-            <!--        {!! link_to_route('tasks.create', 'タスク登録', [], ['class' => 'btn btn-primary']) !!}-->
-            <!--    </div>-->
-            <!--</div>-->
              @yield('content')
         </div>
         
