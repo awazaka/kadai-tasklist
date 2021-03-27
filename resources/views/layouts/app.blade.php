@@ -9,17 +9,22 @@
     </head>
     
     <body>
-        <header>
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-                <a class="navbar-brand" href="/">TaskList</a>
-            </nav>
-        </header>
+        
+        @include('commons.navbar')
         
         <div class="container">
-            @yield('content')
+            <!--<div class="row">-->
+            <!--    <div class="col-sm-8">-->
+            <!--        @yield('content')-->
+            <!--    </div>-->
+            <!--    <div class="col-sm-4">-->
+            <!--        {!! link_to_route('tasks.create', 'タスク登録', [], ['class' => 'btn btn-primary']) !!}-->
+            <!--    </div>-->
+            <!--</div>-->
+             @yield('content')
         </div>
         
-        <footer class="text-center bg-dark">
+        <footer class="text-center bg-dark mt-3">
             <small class="text-light">TaskList</small>
         </footer>
         
