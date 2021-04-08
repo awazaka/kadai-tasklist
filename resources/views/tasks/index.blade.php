@@ -28,6 +28,7 @@
     @endif
     {!! link_to_route('tasks.create', '新規タスクの追加', [], ['class' => 'btn btn-primary']) !!}
 @else
-    {!! link_to_route('signup.get', 'Sign up now!', [], ['class' => 'btn btn-lg btn-primary']) !!}
+    <p>ユーザー登録はこちら</p>
+    {!! link_to_route('signup.get', '新規登録する', [], ['class' => 'btn btn-lg btn-primary']) !!}
 @endif
 @endsection
